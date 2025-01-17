@@ -1,0 +1,92 @@
+/* Reset and font styles */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: #121212; /* Dark theme */
+    color: #f5f5f5; /* Light text color */
+    padding: 20px;
+}
+
+/* Main container */
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    background-color: #121212; /* Card-like background */
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #161616de;
+    border-radius: 12px 12px 0 0;
+    color: #fff;
+    font-size: 1.0rem;
+}
+
+.header img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+/* Image Section */
+.img {
+    display: flex;
+    justify-content: space-between; /* Align images evenly */
+    flex-wrap: nowrap; /* Prevent wrapping */
+    margin: 20px 0;
+    gap: 15px;
+}
+
+.img img {
+    width: calc(25% - 15px); /* 4 images with space */
+    height: 400px; /* Long rectangular shape */
+    object-fit: cover; /* Ensures images retain aspect ratio */
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+/* Description Section */
+.desc {
+    text-align: left;
+    line-height: 1.8;
+    padding: 20px;
+    font-size: 1rem;
+    color: #e5e5e5;
+}
+
+/* GitHub Link Section */
+.githublink {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #161616de;
+    border-radius: 8px;
+}
+
+.githublink a {
+    text-decoration: none;
+    color: #ef7a34;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.githublink a:hover {
+    color: #ffffff;
+}
+
+
+
