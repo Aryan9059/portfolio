@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/7b5d604b99.js" crossorigin="anonymous"></script>
 </head>
 
@@ -19,21 +20,23 @@
                 <li><a href="https://www.youtube.com/@FizantoFuzz">YouTube Channel</a></li>
                 <li><a href="#services">Services</a></li>
             </ul>
-            <a href="#get-in-touch" class="btn">Connect with Me</a>
         </nav>
     </header>
 
     <main>
         <section class="container">
-            <div class="img">
-                <img src="assets/aryan.jpg" width="100" alt="Aryan's Portrait">
+            <img class="img" src="assets/aryan.jpg" width="100" alt="Aryan's Portrait">
+            <div>
+            <h1>Hi! I'm Aryan Srivastava</h1>
+            <span class="h2-text">An Android Developer.</span>
+            <p>I hold expertise in Kotlin & Jetpack. Besides I have experience in building Native Android projects in Java and XML. I'm semi-skilled in video editing and graphic designing.</p>
+            <button class="btn trans-btn" id="resumedownload">My Resume</button>
+            <button class="btn"><a href="#get-in-touch">Connect with Me</a></button>
             </div>
-            <h1><span>I'm Aryan Srivastava:</span> Android Developer Based in India</h1>
-            <p>I hold expertise in Kotlin & Jetpack. Besides I have experience in building native android projects in java and XML. I'm semi-skilled in video editing and graphic designing.</p>
-            <div class="buttons">
-                <button class="btn trans-btn" id="resumedownload">My Resume</button>
-                <button class="btn"><a href="#get-in-touch">Connect with Me</a></button>
-            </div>
+            <div class="rectangles">
+                <div class="rectangle one"></div>
+                <div class="rectangle two"></div>
+              </div>
         </section>
 
         <section>
@@ -43,16 +46,30 @@
                     
                     <div class="about-me">
                         <p>
-                            I specialize in delivering high-quality app and graphic designs. My experience includes a wide range of projects,
-                            from concept creation to final delivery, ensuring seamless user experiences.
+                            Hi! I'm a passionate Android Developer currently pursuing my studies at Indian Institue of Information Technology, Allahabad. 
+                            With a knack for creating user-friendly mobile applications, I specialize in Kotlin and Jetpack Compose, 
+                            and I'm always eager to explore innovative ways to enhance app design and functionality. <br><br>Over the years, 
+                            I’ve worked on various exciting projects, such as: Developing hype.pass, secure, offline password management
+                            app that ensures user data stays private. Creating engaging apps using APIs like the YouTube API to enhance
+                            interactivity and utility. Designing and building a custom ranking system and cricket management app for 
+                            my club, showcasing my ability to combine creativity with robust technical skills. Apart from coding, I love 
+                            delving into UI/UX design and have experience using tools like Adobe Illustrator and Figma to create logos, 
+                            social media assets, and app interfaces. <br><br>My curiosity also extends to competitive programming, where I’m 
+                            honing my skills in C++ and starting to explore contesting in Kotlin. Whether it’s crafting seamless user 
+                            experiences, solving challenging programming problems, or experimenting with new technologies, I’m always 
+                            driven to learn and grow. Let’s create something amazing together!
                         </p>
-                        
                         <ul class="skills">
-                            <h2>Tech Stacks</h2>
-                            <li>Kotlin <span class="progress"></span></li>
-                            <li>Java <span class="progress"></span></li>
-                            <li>Graphic Designing <span class="progress"></span></li>
-                            <li>App Designing <span class="progress"></span></li>
+                            <h1 class="headings2">Tech Stack</h1>
+                            <span>Kotlin</span>
+                            <span>Jetpack Compose</span>
+                            <span>Android Java</span>
+                            <span>Graphic Designing</span>
+                            <span>App UI/UX Designing</span>
+                            <span>Figma</span>
+                            <span>Android XML</span>
+                            <span>Adobe Illustrator</span>
+                            <span>Adobe Premiere Pro</span>
                         </ul>
                     </div>
                 </div>
@@ -179,7 +196,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 Aryan Portfolio. All rights reserved.</p>
+        <p>Made with ❤️ by<a href="https://github.com/MishtiGarg250" target="_blank"> Mishti Garg</a></p>
     </footer>
 
     <script src="script.js"></script>
